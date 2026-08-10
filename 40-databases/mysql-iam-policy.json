@@ -3,7 +3,7 @@
 		{
 			"Action": "ssm:GetParameter",
 			"Effect": "Allow",
-			"Resource": "arn:aws:ssm:us-east-1:160885265516:parameter/roboshop/dev/mysql_root_password",
+			"Resource": "arn:aws:ssm:us-east-1:836766595483:parameter/roboshop/dev/mysql_root_password",
 			"Sid": "VisualEditor0"
 		},
 		{
