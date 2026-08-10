@@ -7,9 +7,9 @@ variable "environment" {
 }
 
 variable "domain_name" {
-    default = "daws90s.shop"
+    default = "devopstest.live"
 }
 
 variable "zone_id" {
-    default = "Z07086101C1CVP7AT2UK4"
+    default = "Z01987842UC485EKUCOKB"
 }  
