@@ -15,5 +15,5 @@ variable "app_version" {
 }  */  
 
 variable "domain_name" {
-    default = "daws90s.shop"
+    default = "devopstest.live"
 }
