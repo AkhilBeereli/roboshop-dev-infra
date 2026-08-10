@@ -22,6 +22,9 @@ resource "terraform_data" "catalogue" {
     user        = "ec2-user"
     password = "DevOps321"
     host        = aws_instance.catalogue.private_ip
+    bastion_host     = data.aws_instance.bastion.public_ip
+    bastion_user     = "ec2-user"
+    bastion_password = "DevOps321"
   }
 
   provisioner "file" {
