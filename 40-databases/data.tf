@@ -41,4 +41,14 @@ data "aws_ami" "joindevops" {
     name   = "architecture"
     values = ["x86_64"]
   }
+
+data "aws_instance" "bastion" {
+  filter {
+    name   = "tag:Name"
+    values = ["roboshop-dev-bastion"]
+  }
+  filter {
+    name   = "instance-state-name"
+    values = ["running"]
+  }
 }
