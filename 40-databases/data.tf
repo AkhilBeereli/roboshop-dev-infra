@@ -41,6 +41,7 @@ data "aws_ami" "joindevops" {
     name   = "architecture"
     values = ["x86_64"]
   }
+}
 
 data "aws_instance" "bastion" {
   filter {
